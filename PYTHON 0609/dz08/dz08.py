@@ -1,12 +1,17 @@
-from BankAccount import *
+from Vector2D import *
 
 print("-----------------------------------------------Zadatak-----------------------------------------------")
-ba = BankAccount()
-ba2 = BankAccount(200)
 
-ba.deposit(300)
-ba2.withdraw(100)
+vec1 = Vector2D(6,3)
+vec2 = Vector2D(3,2)
+skalar = 3
 
-print("Trenutno stanje prvog racuna je: {} ".format(ba.get_amount()))
-print("Trenutno stanje drugog racuna je: {} ".format(ba2.get_amount()))
+vecSabiranje = vec1.saberiSa(vec2)
+vecOduzimanje = vec1.umanjiZa(vec2)
+vecMnozenje = vec1.sklaranoMnozenje(skalar)
+vecDeljenje = vec1.sklaranoDeljenje(skalar)
 
+print("Sabiranje vektora je stvorilo vektor({},{})".format(vecSabiranje.x, vecSabiranje.y))
+print("Oduzimanje vektora je stvorilo vektor({},{})".format(vecOduzimanje.x, vecOduzimanje.y))
+print("Mnozenje skalarom {} je stvorilo vektor({},{})".format(skalar, vecMnozenje.x, vecMnozenje.y))
+print("Deljenje skalarom {} je stvorilo vektor({},{})".format(skalar, vecDeljenje.x, vecDeljenje.y))
