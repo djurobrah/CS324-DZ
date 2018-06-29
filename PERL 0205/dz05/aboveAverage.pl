@@ -23,3 +23,4 @@ sub avrg
 	return $sum / scalar @_;
   print("$avrg");
 }
+system("pause");

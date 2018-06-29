@@ -21,3 +21,4 @@ else
 {
     print("\n $ime ne postoji u hashmapi! \n");
 }
+system("pause");

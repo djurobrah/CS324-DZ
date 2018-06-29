@@ -29,4 +29,4 @@ else
 		print "'$_', ";
 	}
 }
-
+system("pause");

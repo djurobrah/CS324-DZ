@@ -8,7 +8,7 @@ foreach $broj (@brojevi)
 {
 	print("$broj" * "$broj".", ");
 	#print("sta");
-
+}
 
 #stampanje kvadrata brojeva (shift funkcija)
 print("\n Niz kvadrata brojeva od 1 do 10 (via shift): \n");
@@ -25,3 +25,4 @@ $input = <STDIN>;
 chomp($input);
 $result = reverse $input;
 print("Obrnuta recenica :\n $result \n");
+system("pause");

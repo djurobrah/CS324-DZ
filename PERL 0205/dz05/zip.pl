@@ -46,3 +46,4 @@ sub zipuj
   }
 	return @temp;
 }
+system("pause");

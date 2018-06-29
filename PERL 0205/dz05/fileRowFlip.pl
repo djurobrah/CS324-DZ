@@ -18,3 +18,4 @@ while (scalar @result != 0)
   my $temp = pop @result;
   print("\n" . $temp . "\n");
 }
+system("pause");

@@ -21,3 +21,4 @@ $withdraw_money = <STDIN>;
 chomp($withdraw_money);
 $bank_acc->withdraw($withdraw_money);
 print("\n Trenutno stanje racuna:" . $bank_acc->getBalance() . "\n");
+system("pause");
